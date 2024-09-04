@@ -1,109 +1,109 @@
-# Laravel-specific
-/vendor/
-/node_modules/
-/public/storage
-/public/hot
-/public/mix-manifest.json
-/public/css/*.css
-/public/js/*.js
-/public/js/*.map
-/public/css/*.map
-/public/images/
-/storage/*.key
-/storage/*.log
-/storage/app/public
-/storage/app/*.tmp
-/storage/app/debugbar
-/storage/framework/cache/*
-/storage/framework/sessions/*
-/storage/framework/testing/*
-/storage/framework/views/*
-/storage/logs/*
-/.env
-/.env.backup
-/.env.*.backup
-/.env.local
-/.env.development
-/.env.production
-/.env.staging
-
-# If you are using Laravel Mix (Webpack)
-/public/css/*.css.map
-/public/js/*.js.map
-/public/mix-manifest.json
-/public/hot
-npm-debug.log
-yarn-debug.log
-yarn-error.log
-
-# Laravel Telescope
-/storage/telescope
-
-# Laravel Horizon
-/storage/horizon
-
-# Ignore IDE and editor folders/files
-/.idea
-/.vscode
-_ide_helper.php
-_ide_helper_models.php
-.phpstorm.meta.php
-/.phpunit.result.cache
-/nbproject
-/.DS_Store
-
-# Ignore composer.lock for libraries
-composer.lock
-
-# Ignore all test-related files
-/tests
-/phpunit.xml
-/phpunit.xml.dist
-/test-results/
-
-# Ignore deployment-related files
-.env.example
-/deployment/
-.deploy/
-.docker/
-#docker-compose.yml
-#Dockerfile
-
-# Ignore temporary files
-*.swp
-*.swp~
-*.swo
-*.swo~
-*.tmp
-*.log
-*.cache
-*.pid
-*.seed
-*.gz
-*.sql
-*.zip
-*.tar.gz
-*.rar
-*.7z
-*.bak
-
-# Ignore macOS system files
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Ignore Windows system files
-Thumbs.db
-Desktop.ini
-
-# Ignore Linux system files
-*~
-
-# Ignore npm package files
-package-lock.json
-yarn.lock
-.pnpm-debug.log
-
-# Ignore IDE helper files
-_ide_helper.php
-_ide_helper_models.php
+## Laravel-specific
+#/vendor/
+#/node_modules/
+#/public/storage
+#/public/hot
+#/public/mix-manifest.json
+#/public/css/*.css
+#/public/js/*.js
+#/public/js/*.map
+#/public/css/*.map
+#/public/images/
+#/storage/*.key
+#/storage/*.log
+#/storage/app/public
+#/storage/app/*.tmp
+#/storage/app/debugbar
+#/storage/framework/cache/*
+#/storage/framework/sessions/*
+#/storage/framework/testing/*
+#/storage/framework/views/*
+#/storage/logs/*
+#/.env
+#/.env.backup
+#/.env.*.backup
+#/.env.local
+#/.env.development
+#/.env.production
+#/.env.staging
+#
+## If you are using Laravel Mix (Webpack)
+#/public/css/*.css.map
+#/public/js/*.js.map
+#/public/mix-manifest.json
+#/public/hot
+#npm-debug.log
+#yarn-debug.log
+#yarn-error.log
+#
+## Laravel Telescope
+#/storage/telescope
+#
+## Laravel Horizon
+#/storage/horizon
+#
+## Ignore IDE and editor folders/files
+#/.idea
+#/.vscode
+#_ide_helper.php
+#_ide_helper_models.php
+#.phpstorm.meta.php
+#/.phpunit.result.cache
+#/nbproject
+#/.DS_Store
+#
+## Ignore composer.lock for libraries
+#composer.lock
+#
+## Ignore all test-related files
+#/tests
+#/phpunit.xml
+#/phpunit.xml.dist
+#/test-results/
+#
+## Ignore deployment-related files
+#.env.example
+#/deployment/
+#.deploy/
+#.docker/
+##docker-compose.yml
+##Dockerfile
+#
+## Ignore temporary files
+#*.swp
+#*.swp~
+#*.swo
+#*.swo~
+#*.tmp
+#*.log
+#*.cache
+#*.pid
+#*.seed
+#*.gz
+#*.sql
+#*.zip
+#*.tar.gz
+#*.rar
+#*.7z
+#*.bak
+#
+## Ignore macOS system files
+#.DS_Store
+#.AppleDouble
+#.LSOverride
+#
+## Ignore Windows system files
+#Thumbs.db
+#Desktop.ini
+#
+## Ignore Linux system files
+#*~
+#
+## Ignore npm package files
+#package-lock.json
+#yarn.lock
+#.pnpm-debug.log
+#
+## Ignore IDE helper files
+#_ide_helper.php
+#_ide_helper_models.php
